@@ -1,0 +1,23 @@
+.col{
+  transition: all 0.12s linear;
+}
+.col:hover {
+  
+  transform: scale(1.1);
+}
+
+
+.my.pagination > .page-item > a{
+  color: black;
+}
+
+.my.pagination > .active > a,
+.my.pagination > .active > span, 
+.my.pagination > .active > a:hover, 
+.my.pagination > .active > span:hover, 
+.my.pagination > .active > a:focus, 
+.my.pagination > .active > span:focus {
+  background: #F3816F;
+  border-color: #F3816F;
+  color: white;
+}
