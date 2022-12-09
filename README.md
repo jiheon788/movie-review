@@ -1,5 +1,5 @@
-# Movie Review
-* 영화 리뷰 사이트
+# review-web-practice
+* 서버, 클라이언트간 통신 
 * client - FE - REACT, axios
 * server - BE - MongoDB, EXPRESS
 * review CRUD, login, logout, kakao login, signup, pagination
