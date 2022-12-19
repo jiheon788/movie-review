@@ -1,23 +1,34 @@
-.col{
+.col {
+  border-radius: 16px;
+
   transition: all 0.12s linear;
 }
 .col:hover {
-  
+  box-shadow: 0 6px 500px rgb(93 100 122 / 80%);
+  z-index: 1;
   transform: scale(1.1);
 }
 
-
-.my.pagination > .page-item > a{
+.my.pagination > .page-item > a {
   color: black;
 }
 
 .my.pagination > .active > a,
-.my.pagination > .active > span, 
-.my.pagination > .active > a:hover, 
-.my.pagination > .active > span:hover, 
-.my.pagination > .active > a:focus, 
+.my.pagination > .active > span,
+.my.pagination > .active > a:hover,
+.my.pagination > .active > span:hover,
+.my.pagination > .active > a:focus,
 .my.pagination > .active > span:focus {
-  background: #F3816F;
-  border-color: #F3816F;
+  background: #f3816f;
+  border-color: #f3816f;
   color: white;
+}
+
+.contentbox img {
+  /* background-color: red; */
+  background-size: cover;
+  /* background-size: contain; */
+  height: 246px;
+  width: 300px;
+  /* overflow: hidden; */
 }

@@ -91,10 +91,10 @@ const Review = ()=>{
       <section className="py-5 text-center container">
         <div className="row py-lg-5">
           <div className="col-lg-6 col-md-8 mx-auto">
-            <h1 className="fw-light">Movie</h1>
-            <p className="lead text-muted">리뷰하고 싶은 영화를 추가하고, 별점을 주세요.<br/>또한 삭제, 수정이 가능합니다.</p>
+            <h1 className="fw-light">MY BLOG</h1>
+            <p className="lead text-muted">글을 작성하세요.<br/>또한 삭제, 수정이 가능합니다.</p>
             <p>
-              <button onClick={()=>{navigate('/review/create')}} className="btn" style={{backgroundColor:"#F3816F", color:"white"}}>CREATE REVIEW</button>
+              <button onClick={()=>{navigate('/review/create')}} className="btn" style={{backgroundColor:"#F3816F", color:"white"}}>CREATE</button>
             </p>
           </div>
         </div>
@@ -106,7 +106,7 @@ const Review = ()=>{
             {
               reviewData.map((item, index)=>(
                 <div className="col" key={index} style={{"paddingRight":"20px"}}>
-                  <div className="shadow-lg p-3 mb-5 bg-body rounded" >
+                  <div className=" p-3 mb-5 bg-body rounded" >
                     <div className="card-img-top" style={{textAlign: "center", padding:"10px"}}>
                       <img className="bd-placeholder-img" onClick={()=>onClickDetailButton(item.shortId)} width="172" height="246" src={item.img} role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" />
                     </div>
