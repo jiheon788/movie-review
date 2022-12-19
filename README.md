@@ -18,7 +18,7 @@
 
 # 3. DEV LOG
 ## 3.1. Kakao Login
-![kakao](./images/kakaoAuth.png)
+![kakaoAuth](https://user-images.githubusercontent.com/90181028/208370687-8f019345-e895-4102-a006-4731e5ec10f6.png)
 
 ## 3.2. 네이버 클라우드 ubuntu 서버 구축 프로세스
 
