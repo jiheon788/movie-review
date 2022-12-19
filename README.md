@@ -1,15 +1,26 @@
-# review-web-practice
-* 서버, 클라이언트간 통신 
-* client - FE - REACT, axios
-* server - BE - MongoDB, EXPRESS
-* review CRUD, login, logout, kakao login, signup, pagination
-![main](./images/mainpage.png)
+# BLOG
 
+<div align="center">
+<img src="https://user-images.githubusercontent.com/90181028/208368767-8c80973b-911e-400a-9c03-7f333a9016b8.png" width=60% />
+</div>
 
-### Kakao Login
+# 1. INTRODUCTION
+
+- CRUD가 가능한 웹 풀스택 개발
+- 네이버 클라우드 플랫폼을 통하여 우분투 배포 연습
+- MERN: `MongoDB`, `Express`, `React`, `NodeJs`
+- 개발기간: 2022.07
+
+# 2. KEY FUCNTIONS
+- review CRUD
+- login, logout, kakao login, signup, 
+- Pagination
+
+# 3. DEV LOG
+## 3.1. Kakao Login
 ![kakao](./images/kakaoAuth.png)
 
-### 네이버 클라우드 ubuntu 서버 구축 프로세스
+## 3.2. 네이버 클라우드 ubuntu 서버 구축 프로세스
 
 1. 네이버 클라우드 플랫폼 페이지 접속
 2. 로그인
