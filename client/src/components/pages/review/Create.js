@@ -51,6 +51,7 @@ const Create = ()=>{
       console.log(res);
       alert(res.data.result)
       navigate("/review/list")
+      window.location.reload();
     }).catch(error=>{
       console.log(error);
     })

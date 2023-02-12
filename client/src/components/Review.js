@@ -1,4 +1,3 @@
-// import reviewData from "./../data/review.json"
 import port from "./../data/port.json";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
@@ -71,6 +70,7 @@ const Review = ()=>{
       deleteReview(shortId).then(res=>{
         let getNewDataAfterDelete = reviewData.filter(item => item.shortId !== shortId);
         setReviewData(getNewDataAfterDelete)
+        window.location.reload();
       })
 
     } else {
@@ -91,7 +91,7 @@ const Review = ()=>{
       <section className="py-5 text-center container">
         <div className="row py-lg-5">
           <div className="col-lg-6 col-md-8 mx-auto">
-            <h1 className="fw-light">MY BLOG</h1>
+            <h1 className="fw-light">Movie</h1>
             <p className="lead text-muted">글을 작성하세요.<br/>또한 삭제, 수정이 가능합니다.</p>
             <p>
               <button onClick={()=>{navigate('/review/create')}} className="btn" style={{backgroundColor:"#F3816F", color:"white"}}>CREATE</button>

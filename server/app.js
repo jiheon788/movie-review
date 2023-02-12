@@ -3,13 +3,9 @@ const mongoose = require("mongoose");
 const postsRouter = require("./routes/posts");
 const userRouter = require("./routes/user");
 const oauthRouter = require("./routes/oauth");
-
 const authMiddleware = require("./utils/authMiddleware");
 const cors = require("cors");
 const bodyParser = require("body-parser");
-
-
-
 
 const app = express();
 
@@ -33,10 +29,6 @@ app.use("/oauth", oauthRouter);
 app.use("/posts", authMiddleware, postsRouter);
 
 app.use("/user", userRouter);
-
-
-
-
 
 app.listen(8080, () => {
   console.log('server open');
