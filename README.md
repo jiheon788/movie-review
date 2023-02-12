@@ -3,10 +3,10 @@
 > Movie Review web Developed with MERN full stack.
 
 <div align='center'>
-<img src="https://user-images.githubusercontent.com/90181028/218302744-52547eff-7277-48b8-a80b-602cdf409d40.png" width="280px" />
+<img src="https://user-images.githubusercontent.com/90181028/218302744-52547eff-7277-48b8-a80b-602cdf409d40.png" width="250px" />
 </div>
 
-<img src="https://user-images.githubusercontent.com/90181028/208368767-8c80973b-911e-400a-9c03-7f333a9016b8.png" align="right" width="200px" />
+<img src="https://user-images.githubusercontent.com/90181028/208368767-8c80973b-911e-400a-9c03-7f333a9016b8.png" align="right" width="230px" />
 
 ### MERN is a fullstack implementation in MongoDB, Expressjs, React/Redux, Nodejs. MERN stack is the idea of using Javascript/Node for fullstack web development.
 
@@ -66,6 +66,6 @@ $ nodemon app.js
 
 `MongoDB`, `Express`, `React`, `Node`, `Redux`, `Bootstrap`, `Axios`
 
-## Screenshot of this project
+## Demo of this project
 
-![demo](https://user-images.githubusercontent.com/90181028/208368767-8c80973b-911e-400a-9c03-7f333a9016b8.png)
+![](https://velog.velcdn.com/images/jiheon788/post/ee2bb3e4-3f68-412c-beac-2efc4713c917/image.gif)
