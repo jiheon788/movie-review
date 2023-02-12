@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import {useCookies} from "react-cookie";
-import port from "./../../../data/port.json"
+import port from "./../../../config/port.json"
 
 
 

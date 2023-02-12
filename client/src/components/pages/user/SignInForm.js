@@ -1,6 +1,6 @@
 import $ from "jquery";
 import axios from "axios";
-import port from "./../../../data/port.json";
+import port from "./../../../config/port.json";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import {useCookies} from "react-cookie"

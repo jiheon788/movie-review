@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import SignInForm from './pages/user/SignInForm';
 import SignUpForm from './pages/user/SignUpForm';
 import kakaoLoginButtonImg from './../images/kakao_login_medium.png';
-import key from "./../data/key.json";
+import key from "./../config/key.json";
 
 
 const Login = ()=>{

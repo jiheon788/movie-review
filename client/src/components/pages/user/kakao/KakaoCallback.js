@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useEffect } from "react";
-import port from "./../../../../data/port.json";
+import port from "./../../../../config/port.json";
 import { useNavigate } from "react-router-dom";
 import {useCookies} from "react-cookie";
 

@@ -27,6 +27,20 @@ $ npm i
 $ npm start
 ```
 
+You need to add rest api key & server url in src/config
+
+```json
+// src/config/key.json
+{
+  "REST_API_KEY": your rest api key (kakao)
+}
+
+// src/config/port.json
+{
+  "url": your server url
+}
+```
+
 ## Server-side usage(PORT: 8080)
 
 ```bash

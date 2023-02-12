@@ -1,7 +1,7 @@
 const {Router} = require('express');
 const router = Router();
 const axios = require("axios");
-const key = require("./../../client/src/data/key.json");
+const key = require("./../../client/src/config/key.json");
 const jwt = require("jsonwebtoken");
 const jwtConfig= require("./../config/jwtConfig");
 const { User } = require("../models");

@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
-import port from "./../../../data/port.json";
+import port from "./../../../config/port.json";
 import {useCookies} from "react-cookie";
 import $ from "jquery";
 import { useParams } from "react-router-dom";

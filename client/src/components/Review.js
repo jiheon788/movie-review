@@ -1,4 +1,4 @@
-import port from "./../data/port.json";
+import port from "./../config/port.json";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import {useCookies} from "react-cookie";
