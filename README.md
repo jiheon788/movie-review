@@ -68,4 +68,4 @@ $ nodemon app.js
 
 ## Demo of this project
 
-![](https://velog.velcdn.com/images/jiheon788/post/ee2bb3e4-3f68-412c-beac-2efc4713c917/image.gif)
+![demo](./demo.gif)
