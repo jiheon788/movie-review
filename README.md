@@ -1,6 +1,10 @@
 # Movie Review
 
-> Developed with MERN full stack.
+> Movie Review web Developed with MERN full stack.
+
+<div align='center'>
+<img src="https://user-images.githubusercontent.com/90181028/218302744-52547eff-7277-48b8-a80b-602cdf409d40.png" width="280px" />
+</div>
 
 <img src="https://user-images.githubusercontent.com/90181028/208368767-8c80973b-911e-400a-9c03-7f333a9016b8.png" align="right" width="200px" />
 
